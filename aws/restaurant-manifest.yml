@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: restaurantapp
-          image: asif11/restaurant-listing-service:0.0.1
+          image: asif11/restaurant-listing-service:11
           imagePullPolicy: Always
           ports:
             - containerPort: 9091
